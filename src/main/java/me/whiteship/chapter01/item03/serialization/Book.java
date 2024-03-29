@@ -11,7 +11,7 @@ public class Book implements Serializable {
 
     private String title;
 
-    private LocalDate published;
+    private transient LocalDate published;
 
     private String name;
 
